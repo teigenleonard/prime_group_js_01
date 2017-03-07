@@ -14,6 +14,7 @@ function processEmployees( array ) {
     console.log(this.name);
     this.bonus = bonusPercent(array[i][1],array[i][3]);
     console.log(this.bonus);
+  
   }
 
 }
